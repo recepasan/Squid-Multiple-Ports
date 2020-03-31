@@ -1,7 +1,6 @@
 #  Squid Multiple Ports Install
 
-Auto install Squid proxy and 30K Port on
-HTTP & IPV4
+Auto install Squid proxy and 30K HTTP Port on
 
 
 Debian 8
