@@ -4,8 +4,9 @@ Auto install Squid proxy and 30K Port on.
 <p>It is installed as HTTP.
 
 Debian 8
-Debian 9
-Debian 10
+<p>Debian 9
+<p>Debian 10
+
 
 ## Install
 
