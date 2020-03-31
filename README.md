@@ -1,7 +1,7 @@
 #  Squid Multiple Ports Install
 
-Auto install Squid proxy and 30K HTTP Port on
-
+Auto install Squid proxy and 30K Port on
+It is installed as HTTP.
 
 Debian 8
 Debian 9
