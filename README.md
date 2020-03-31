@@ -10,7 +10,7 @@ Debian 9
 Debian 10
 ```
 
-## Install
+# Install
 
 To install, run the script
 
@@ -18,4 +18,8 @@ To install, run the script
 wget https://raw.githubusercontent.com/recepasan/squid/master/squid-install.sh
 chmod +x squid-install.sh
 sudo ./squid-install.sh
+```
+# Sample use after installation.
+```
+proxy:proxy@ip-adress:30000:59999
 ```
