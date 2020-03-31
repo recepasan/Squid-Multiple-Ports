@@ -7,9 +7,6 @@ if [ "$(id -u)" != "0" ]; then
   echo "This script must be run as root" 1>&2
   exit 1
 fi
-for (( i = 0; i < 10; i++ )); do
-	#statements
-done
 echo "Add repositories to Aptitude"
 echo "deb http://httpredir.debian.org/debian stable main" > /etc/apt/sources.list.d/squid.list
 echo "deb-src http://httpredir.debian.org/debian stable main" >> /etc/apt/sources.list.d/squid.list
@@ -20,7 +17,7 @@ echo "Update packages list"
 apt-get update
 echo "Build dependencies"
 apt-get -y install build-essential libssl-dev apache2-utils
-apt-get -y build-dep squid3 squid3-common apache2-utils
+apt-get -y install squid3 squid3-common apache2-utils
 
 echo "Download source code"n
 cd /usr/src
